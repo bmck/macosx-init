@@ -30,7 +30,7 @@ brew cask install google-chrome dropbox angry-ip-scanner bartender \
  kindle expandrive visual-studio-code virtualbox virtualbox-extension-pack \
  zoomus adobe-acrobat-reader skype vlc sublime-text wireshark appcleaner \
  cakebrew dupeguru firefox itsycal workflowy onyx grandperspective whatsapp \
- disk-inventory-x cyberduck
+ disk-inventory-x cyberduck maciasl carbon-copy-cloner geekbench
 
 # Still need to install MS Office, OpenOffice 6, OpenOffice 4.3.1?, R, Kiwi for Gmail,
 # Desktop-Google-Keep-OSX, pCloud, Amphetamine, The Unarchiver, LastPass, Dymo Label,
