@@ -25,16 +25,18 @@ brew install apr apr-util libtool automake autoconf coreutils \
 
 # Applications
 brew cask install google-chrome dropbox angry-ip-scanner bartender \
- amazon-music amazon-drive amazon-workspaces flux gimp noti growlnotify \
- soundflower soundflowerbed plex-media-player plexamp clover-configurator \
+ amazon-music amazon-workspaces flux gimp noti \
+ plex-media-player plexamp clover-configurator \
  kindle expandrive visual-studio-code virtualbox virtualbox-extension-pack \
  zoomus adobe-acrobat-reader skype vlc sublime-text wireshark appcleaner \
  cakebrew dupeguru firefox itsycal workflowy onyx grandperspective whatsapp \
- disk-inventory-x cyberduck maciasl carbon-copy-cloner geekbench
+ disk-inventory-x cyberduck carbon-copy-cloner geekbench darwindumper 
 
-# Still need to install MS Office, OpenOffice 6, OpenOffice 4.3.1?, R, Kiwi for Gmail,
-# Desktop-Google-Keep-OSX, pCloud, Amphetamine, The Unarchiver, LastPass, Dymo Label,
-# MS Remote Desktop 10, Filezilla
+mas install 1295203466 937984704 545578261 467939042 986304488 921458519 926036361
+mas upgrade
+
+# Still need to install MS Office, OpenOffice 6, OpenOffice 4.3.1?, R,
+# Desktop-Google-Keep-OSX, pCloud, The Unarchiver, Dymo Label, Filezilla
 
 # Home dir
 cd 
