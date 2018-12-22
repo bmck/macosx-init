@@ -25,7 +25,7 @@ brew install apr apr-util libtool automake autoconf coreutils \
 
 # Applications
 brew cask install google-chrome dropbox angry-ip-scanner bartender \
- amazon-music amazon-workspaces flux gimp noti clamxav \
+ amazon-music amazon-workspaces flux gimp noti avast-security \
  plex-media-player plexamp clover-configurator \
  kindle expandrive visual-studio-code virtualbox virtualbox-extension-pack \
  zoomus adobe-acrobat-reader skype vlc sublime-text wireshark appcleaner \
