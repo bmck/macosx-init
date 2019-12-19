@@ -13,30 +13,32 @@ brew install git
 echo "gem: --no-document" >> ~/.gemrc
 curl -L https://get.rvm.io | bash -s stable --auto-dotfiles --autolibs=enable --rails
 rvm install 2.2.4
+rvm install 2.5.3
 rvm install 2.4.1 --default
 
 # Basic *nix tools
 brew install apr apr-util libtool automake autoconf coreutils \
- gcc mariadb mas nmap wget subversion quantlib \
+ gcc mariadb mas nmap wget subversion quantlib clover-configurator \
  ffmpeg libyaml unoconv gcc gcc49 jpeg perl p7zip \
  icu4c gdb cvs cmake boost handbrake imagemagick mysql++ \
  mackup netcat openssl python@2 python3 qt qt5 readline \
- vim imagemagick imagemagick@6 clamav
+ vim imagemagick imagemagick@6 clamav gsl 
 
 # Applications
 brew cask install google-chrome dropbox angry-ip-scanner bartender \
- amazon-music amazon-workspaces flux gimp noti \
+ amazon-music amazon-workspaces flux gimp noti r \
  plex-media-player plexamp clover-configurator \
  kindle expandrive visual-studio-code virtualbox virtualbox-extension-pack \
  zoomus adobe-acrobat-reader skype vlc sublime-text wireshark appcleaner \
  cakebrew dupeguru firefox itsycal workflowy onyx grandperspective whatsapp \
- disk-inventory-x cyberduck carbon-copy-cloner geekbench darwindumper 
+ disk-inventory-x cyberduck geekbench darwindumper \
+ the-unarchiver
 
-mas install 1295203466 937984704 545578261 467939042 986304488 921458519 926036361
+mas install 1295203466 937984704 545578261 986304488 921458519
 mas upgrade
 
-# Still need to install MS Office, OpenOffice 6, OpenOffice 4.3.1?, R,
-# Desktop-Google-Keep-OSX, pCloud, The Unarchiver, Dymo Label, Filezilla
+# Still need to install MS Office, OpenOffice 4.3.1?,
+# Desktop-Google-Keep-OSX, pCloud, Dymo Label, Filezilla
 
 # Home dir
 cd 
