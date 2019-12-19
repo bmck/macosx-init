@@ -11,9 +11,11 @@ brew install git
 
 # RVM
 echo "gem: --no-document" >> ~/.gemrc
-curl -L https://get.rvm.io | bash -s stable --auto-dotfiles --autolibs=enable --rails
-rvm install 2.2.4
+curl -L https://get.rvm.io | bash -s stable --auto-dotfiles --autolibs=enable
+source ~/.rvm/scripts/rvm
+rvm install 2.2.10
 rvm install 2.5.3
+rvm install 2.6.3
 rvm install 2.4.1 --default
 
 # Basic *nix tools
@@ -22,7 +24,7 @@ brew install apr apr-util libtool automake autoconf coreutils \
  ffmpeg libyaml unoconv gcc gcc49 jpeg perl p7zip \
  icu4c gdb cvs cmake boost handbrake imagemagick mysql++ \
  mackup netcat openssl python@2 python3 qt qt5 readline \
- vim imagemagick imagemagick@6 clamav gsl 
+ vim imagemagick imagemagick@6 clamav gsl v8@315
 
 # Applications
 brew cask install google-chrome dropbox angry-ip-scanner bartender \
@@ -77,4 +79,6 @@ bundle update
 svn co https://subversion.assembla.com/svn/capitalytics/trunk caplyt 
 cd caplyt
 gem install bundler --conservative
+gem install libv8 -v '3.16.14.13' -- --with-system-v8
+gem install therubyracer -- --with-v8-dir=/usr/local/opt/v8-315
 bundle update
