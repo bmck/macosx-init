@@ -21,7 +21,7 @@ brew install apr apr-util libtool automake autoconf coreutils \
  ffmpeg libyaml unoconv gcc gcc49 jpeg perl p7zip \
  icu4c gdb cvs cmake boost handbrake imagemagick mysql++ \
  mackup netcat openssl python@2 python3 qt qt5 readline \
- vim imagemagick imagemagick@6
+ vim imagemagick imagemagick@6 clamav
 
 # Applications
 brew cask install google-chrome dropbox angry-ip-scanner bartender \
