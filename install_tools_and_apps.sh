@@ -13,10 +13,10 @@ brew install git
 echo "gem: --no-document" >> ~/.gemrc
 curl -L https://get.rvm.io | bash -s stable --auto-dotfiles --autolibs=enable
 source ~/.rvm/scripts/rvm
-rvm install 2.2.10
+rvm install 2.2.4
+rvm install 2.4.1 --default
 rvm install 2.5.3
 rvm install 2.6.3
-rvm install 2.4.1 --default
 
 # Basic *nix tools
 brew install apr apr-util libtool automake autoconf coreutils \
@@ -36,7 +36,18 @@ brew cask install google-chrome dropbox angry-ip-scanner bartender \
  disk-inventory-x cyberduck geekbench darwindumper \
  the-unarchiver
 
-mas install 1295203466 937984704 545578261 986304488 921458519
+# mas install 1295203466 
+# Amphetamine
+mas install 937984704 
+# mysms
+mas install 545578261 
+#
+# mas install 986304488 
+#
+# mas install 921458519 
+# Lastpass
+mas install 926036361
+
 mas upgrade
 
 # Still need to install MS Office, OpenOffice 4.3.1?,
